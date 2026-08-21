@@ -29,8 +29,8 @@
     <p class="sub" id="hero-sub">I build attention-grabbing thumbnails, editorial photo manipulations, and print-ready poster work for creators and brands who need to stand out in the feed.</p>
     <div class="hero-meta">
       <div><b id="stat-projects">—</b>Projects shipped</div>
-      <div><b>3</b>Disciplines</div>
-      <div><b>Open</b>Availability</div>
+      <div><b id="stat-disciplines">—</b>Disciplines</div>
+      <div><b id="stat-availability">—</b>Availability</div>
     </div>
   </div>
 </section>
@@ -43,12 +43,7 @@
         <h2>The Portfolio</h2>
       </div>
     </div>
-    <div class="filters" id="filters">
-      <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="thumbnail">Thumbnails</button>
-      <button class="filter-btn" data-filter="photo-manipulation">Photo Manipulation</button>
-      <button class="filter-btn" data-filter="poster">Posters</button>
-    </div>
+    <div class="filters" id="filters"></div>
     <div class="grid" id="grid">
       <p class="loading">Loading projects…</p>
     </div>
@@ -83,5 +78,19 @@
 </footer>
 
 <script src="js/script.js"></script>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  // Catches invite/recovery links from Netlify emails even if they land here
+  // instead of on /admin, and sends the person to set their password.
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {});
+    if (window.location.hash && window.location.hash.includes("invite_token")) {
+      window.netlifyIdentity.open();
+    }
+    if (window.location.hash && window.location.hash.includes("recovery_token")) {
+      window.netlifyIdentity.open();
+    }
+  }
+</script>
 </body>
 </html>

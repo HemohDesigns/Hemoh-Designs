@@ -25,11 +25,8 @@ collections:
               - { label: "Title", name: "title", widget: "string" }
               - label: "Category"
                 name: "category"
-                widget: "select"
-                options:
-                  - { label: "Thumbnail", value: "thumbnail" }
-                  - { label: "Photo Manipulation", value: "photo-manipulation" }
-                  - { label: "Poster", value: "poster" }
+                widget: "string"
+                hint: "Type any category you want (e.g. Thumbnail, Logo, Branding, Illustration). This becomes a filter tab on the site automatically."
               - { label: "Image", name: "image", widget: "image" }
               - { label: "Description", name: "description", widget: "text", required: false }
               - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
@@ -46,6 +43,9 @@ collections:
           - { label: "Hero Title (line 1)", name: "hero_title_line1", widget: "string" }
           - { label: "Hero Title (accent line, orange)", name: "hero_title_accent", widget: "string" }
           - { label: "Hero Subtext", name: "hero_subtext", widget: "text" }
+          - { label: "Stat — Disciplines (number)", name: "hero_stat_disciplines", widget: "string" }
+          - { label: "Stat — Availability", name: "hero_stat_availability", widget: "string" }
+          - { label: "Hero Background Photo (optional — leave empty to keep the plain dark background)", name: "hero_background_image", widget: "image", required: false }
           - { label: "About Text", name: "about_text", widget: "text" }
           - label: "Skills"
             name: "skills"
