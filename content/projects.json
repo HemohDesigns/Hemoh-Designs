@@ -1,10 +1,10 @@
 {
   "projects": [
     {
-      "title": "Sample Thumbnail Set",
+      "title": "Thumbnail designs",
       "category": "thumbnail",
-      "image": "images/uploads/placeholder-thumbnail.jpg",
-      "description": "Replace this with your own project via the admin panel.",
+      "image": "images/uploads/thumbnail-live-design-series-part-2-hemoh.jpg",
+      "description": "wonderful thumbnail designed by hemoh",
       "date": "2026-01-01",
       "featured": true
     },
