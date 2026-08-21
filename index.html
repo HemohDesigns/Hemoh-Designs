@@ -79,18 +79,7 @@
 
 <script src="js/script.js"></script>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-<script>
-  // Catches invite/recovery links from Netlify emails even if they land here
-  // instead of on /admin, and sends the person to set their password.
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {});
-    if (window.location.hash && window.location.hash.includes("invite_token")) {
-      window.netlifyIdentity.open();
-    }
-    if (window.location.hash && window.location.hash.includes("recovery_token")) {
-      window.netlifyIdentity.open();
-    }
-  }
-</script>
+<!-- Netlify Identity automatically detects invite/recovery links in the URL
+     and opens the correct "set password" screen on its own — no extra code needed. -->
 </body>
 </html>
