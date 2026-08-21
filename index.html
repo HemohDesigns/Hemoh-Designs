@@ -77,6 +77,22 @@
   </div>
 </footer>
 
+<div id="lightbox" class="lightbox">
+  <button id="lightbox-close" class="lightbox-close" aria-label="Close">&times;</button>
+  <button id="lightbox-prev" class="lightbox-nav lightbox-prev" aria-label="Previous image">&larr;</button>
+  <div class="lightbox-content">
+    <img id="lightbox-img" src="" alt="">
+    <div class="lightbox-counter mono" id="lightbox-counter"></div>
+    <div class="lightbox-info">
+      <span class="eyebrow" id="lightbox-category"></span>
+      <h3 id="lightbox-title"></h3>
+      <div class="spec mono" id="lightbox-date"></div>
+      <p id="lightbox-desc"></p>
+    </div>
+  </div>
+  <button id="lightbox-next" class="lightbox-nav lightbox-next" aria-label="Next image">&rarr;</button>
+</div>
+
 <script src="js/script.js"></script>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <!-- Netlify Identity automatically detects invite/recovery links in the URL
