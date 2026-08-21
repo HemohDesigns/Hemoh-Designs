@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hemohdesigns — Graphic Design Portfolio</title>
+<meta name="description" content="Hemohdesigns — thumbnail design, photo manipulation & poster design portfolio.">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <div class="logo">HEMOH<span>DESIGNS</span></div>
+    <div class="navlinks">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <span class="crop tl"></span><span class="crop tr"></span>
+  <span class="crop bl"></span><span class="crop br"></span>
+  <div class="wrap">
+    <div class="eyebrow hero-tag" id="hero-eyebrow">Graphic Designer — Thumbnails / Manipulation / Posters</div>
+    <h1 id="hero-title">Design that<br>gets the <span class="accent">click.</span></h1>
+    <p class="sub" id="hero-sub">I build attention-grabbing thumbnails, editorial photo manipulations, and print-ready poster work for creators and brands who need to stand out in the feed.</p>
+    <div class="hero-meta">
+      <div><b id="stat-projects">—</b>Projects shipped</div>
+      <div><b>3</b>Disciplines</div>
+      <div><b>Open</b>Availability</div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Selected Work</div>
+        <h2>The Portfolio</h2>
+      </div>
+    </div>
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="thumbnail">Thumbnails</button>
+      <button class="filter-btn" data-filter="photo-manipulation">Photo Manipulation</button>
+      <button class="filter-btn" data-filter="poster">Posters</button>
+    </div>
+    <div class="grid" id="grid">
+      <p class="loading">Loading projects…</p>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">About</div>
+      <h2 style="font-family:'Anton',sans-serif;text-transform:uppercase;font-size:clamp(28px,4vw,44px);margin:6px 0 20px;">Hemoh</h2>
+      <p id="about-text">Loading…</p>
+    </div>
+    <ul class="skills" id="skills-list"></ul>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="eyebrow" style="color:var(--charcoal-deep);opacity:0.6;">Let's work together</div>
+    <h2>Got a project<br>in mind?</h2>
+    <p id="contact-text">Reach out and let's talk about your next thumbnail, poster, or photo manipulation project.</p>
+    <div class="contact-links" id="contact-links"></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;width:100%;flex-wrap:wrap;gap:8px;">
+    <span>© <span id="year"></span> Hemohdesigns</span>
+    <span>Built &amp; self-managed</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

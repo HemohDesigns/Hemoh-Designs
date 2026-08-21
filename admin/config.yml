@@ -1,0 +1,62 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "images/uploads"
+
+site_url: https://REPLACE-WITH-YOUR-NETLIFY-SITE.netlify.app
+display_url: https://REPLACE-WITH-YOUR-NETLIFY-SITE.netlify.app
+
+collections:
+  - name: "projects"
+    label: "Portfolio Projects"
+    label_singular: "Project"
+    files:
+      - name: "projects"
+        label: "All Projects"
+        file: "content/projects.json"
+        fields:
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            summary: "{{title}} — {{category}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Category"
+                name: "category"
+                widget: "select"
+                options:
+                  - { label: "Thumbnail", value: "thumbnail" }
+                  - { label: "Photo Manipulation", value: "photo-manipulation" }
+                  - { label: "Poster", value: "poster" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Description", name: "description", widget: "text", required: false }
+              - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+              - { label: "Featured", name: "featured", widget: "boolean", default: false }
+
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - name: "settings"
+        label: "Site Content"
+        file: "content/settings.json"
+        fields:
+          - { label: "Hero Eyebrow Text", name: "hero_eyebrow", widget: "string" }
+          - { label: "Hero Title (line 1)", name: "hero_title_line1", widget: "string" }
+          - { label: "Hero Title (accent line, orange)", name: "hero_title_accent", widget: "string" }
+          - { label: "Hero Subtext", name: "hero_subtext", widget: "text" }
+          - { label: "About Text", name: "about_text", widget: "text" }
+          - label: "Skills"
+            name: "skills"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Value", name: "value", widget: "string" }
+          - { label: "Contact Text", name: "contact_text", widget: "text" }
+          - label: "Contact Links"
+            name: "contact_links"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }

@@ -1,0 +1,19 @@
+{
+  "hero_eyebrow": "Graphic Designer — Thumbnails / Manipulation / Posters",
+  "hero_title_line1": "Design that",
+  "hero_title_accent": "gets the click.",
+  "hero_subtext": "I build attention-grabbing thumbnails, editorial photo manipulations, and print-ready poster work for creators and brands who need to stand out in the feed.",
+  "about_text": "I'm Hemoh, a graphic designer focused on thumbnail design, photo manipulation, and poster work. I help creators and brands turn ideas into visuals that stop the scroll and hold attention. Every project starts with the story you're trying to tell — the design comes after.",
+  "skills": [
+    { "label": "Thumbnail Design", "value": "YouTube / Social" },
+    { "label": "Photo Manipulation", "value": "Composite / Retouch" },
+    { "label": "Poster Design", "value": "Print / Digital" },
+    { "label": "Software", "value": "Photoshop / Illustrator" }
+  ],
+  "contact_text": "Reach out and let's talk about your next thumbnail, poster, or photo manipulation project.",
+  "contact_links": [
+    { "label": "Email", "url": "mailto:hello@hemohdesigns.com" },
+    { "label": "Instagram", "url": "https://instagram.com/hemohdesigns" },
+    { "label": "Twitter / X", "url": "https://x.com/hemohdesigns" }
+  ]
+}

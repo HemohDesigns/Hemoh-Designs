@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "title": "Sample Thumbnail Set",
+      "category": "thumbnail",
+      "image": "images/uploads/placeholder-thumbnail.jpg",
+      "description": "Replace this with your own project via the admin panel.",
+      "date": "2026-01-01",
+      "featured": true
+    },
+    {
+      "title": "Sample Photo Manipulation",
+      "category": "photo-manipulation",
+      "image": "images/uploads/placeholder-manip.jpg",
+      "description": "Replace this with your own project via the admin panel.",
+      "date": "2026-01-01",
+      "featured": false
+    },
+    {
+      "title": "Sample Poster",
+      "category": "poster",
+      "image": "images/uploads/placeholder-poster.jpg",
+      "description": "Replace this with your own project via the admin panel.",
+      "date": "2026-01-01",
+      "featured": false
+    }
+  ]
+}
