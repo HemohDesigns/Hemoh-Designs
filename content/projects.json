@@ -6,7 +6,15 @@
       "image": "images/uploads/thumbnail-live-design-series-part-2-hemoh.jpg",
       "description": "wonderful thumbnail designed by hemoh",
       "date": "2026-01-01",
-      "featured": true
+      "featured": true,
+      "gallery": [
+        "images/uploads/thumbnail-live-design-series-part-3-hemoh.jpg",
+        "images/uploads/thumbnail-live-design-series-part-2-hemoh.jpg",
+        "images/uploads/thumbnail-live-design-series-part-1-hemoh.jpg",
+        "images/uploads/my-thumbnail-design-post-template.jpg",
+        "images/uploads/my-thumbnail-design-post-template-2.jpg",
+        "images/uploads/my-thumbnail-design-post-template-1.jpg"
+      ]
     },
     {
       "title": "Sample Photo Manipulation",
