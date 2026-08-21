@@ -23,6 +23,13 @@
       "description": "Replace this with your own project via the admin panel.",
       "date": "2026-01-01",
       "featured": false
+    },
+    {
+      "featured": true,
+      "title": "rat",
+      "category": "goty",
+      "image": "images/uploads/placeholder-thumbnail.jpg",
+      "date": "2026-08-21"
     }
   ]
 }
